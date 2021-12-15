@@ -1,3 +1,4 @@
+```js
 {
   // Place your global snippets here. Each snippet is defined under a snippet name and has a scope, prefix, body and
   // description. Add comma separated ids of the languages where the snippet is applicable in the scope field. If scope
@@ -40,3 +41,4 @@
     "description": "Creates a React Functional Component with ES7 module system"
   }
 }
+```
