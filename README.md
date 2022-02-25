@@ -39,6 +39,35 @@
       ""
     ],
     "description": "Creates a React Functional Component with ES7 module system"
+  },
+  "reactHook": {
+    "scope": "typescript",
+    "prefix": "trh",
+    "body": [
+      "export const ${1:${TM_FILENAME_BASE}} = () => {",
+      "\treturn {}",
+      "}",
+      ""
+    ],
+    "description": "Creates a React Hook with ES7 module system"
+  },
+  "test": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "test",
+    "body": [
+      "describe('${1:${TM_FILENAME_BASE}}', () => {",
+      "\tit('should',()=> {",
+      "})});",
+      ""
+    ],
+    "description": "Creates a test"
+  },
+  "todo": {
+    "scope": "typescript,typescriptreact",
+    "prefix": "TODO",
+    "body": ["TODO:"],
+    "description": "Creates a TODO"
   }
 }
+
 ```
